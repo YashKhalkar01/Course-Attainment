@@ -1,6 +1,6 @@
-# College Mark Tracker
+# [Course Attainment]
 
-College Mark Tracker is a comprehensive data management system designed specifically for educational institutions. It enables dynamic Excel file generation, streamlining the process of handling academic data. With robust student-teacher models and validation logic, this tool significantly reduces processing time while ensuring data accuracy.
+Course Attainment is a comprehensive data management system designed specifically for educational institutions. It enables dynamic Excel file generation, streamlining the process of handling academic data. With robust student-teacher models and validation logic, this tool significantly reduces processing time while ensuring data accuracy.
 
 ## Table of Contents
 
@@ -30,12 +30,12 @@ College Mark Tracker is a comprehensive data management system designed specific
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/college-mark-tracker.git
+   git clone https://github.com/your-username/course-attainment.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd college-mark-tracker
+   cd course-attainment
    ```
 
 3. Install dependencies:
