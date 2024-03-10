@@ -1,0 +1,24 @@
+.vh-100 {
+    height: 60vh!important;
+}
+.main{
+    display: flex;
+    max-width: fit-content;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    width: 520px;
+    margin: 100px auto 0px auto;
+    background-color:rgb(255, 255, 255);
+    font-size:18px;
+    border-radius: 10px;
+    border: 1px soid rgba(225,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    max-width: 100%;
+    height: auto;
+   
+}

@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding:0;
+    
+    
+}
+body {
+   background-color:white;
+   backdrop-filter: blur;
+}
+.main{
+  max-width: 100%;
+  height: auto;
+
+    padding: 10px;
+    margin-top: 40px;
+    width: 520px;
+    margin: 100px auto 0px auto;
+    background-color:rgb(56, 55, 55);
+    font-size:18px;
+    border-radius: 10px;
+    border: 1px soid rgba(225,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+form{
+  margin: 40px;
+  margin-top: 40px;
+}
+label{
+  margin-top: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: bold;
+}
+input[type="text"]{
+
+  width: 300px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: bold;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+  max-width: 100%;
+  height: auto;
+
+
+}
+input[type="submit"]
+{
+  color: #fff;
+  width: 100px;
+  padding: 7px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(180, 140, 220);
+  cursor: pointer;
+  border: solid rgba(255,255,255,0.3);
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  margin-top: 10px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
+
+
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10px;
+}

@@ -1,0 +1,50 @@
+{% extends 'base.html'%}
+{% block head %}
+<link href="static/displayPaper.css" rel="stylesheet">
+
+{% endblock head %}
+{% block body%}
+<div class="main">
+  <center><h1>Display Course Outcome </h1></center>
+  
+  <form action="displayPaper" method="post">
+      {% csrf_token %}
+     
+      <lable for="course_code">Course Code :</lable>
+    
+    <input type="text" id="course_code" name="course_code" required><br><br>
+
+      <lable for="branch">Branch :</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select id="branch" name="branch">
+      <option value ="Computer Technology">Computer Technology </option>
+    <option value ="Information Technology"> Information Technology </option>
+    <option value ="Automobile Engineering"> Automobile Engineering </option>
+    <option value ="Civil Engineering"> Civil Engineering </option>
+    <option value ="Mechanical Engineering"> Mechanical Engineering </option>
+    <option value ="ENTC"> ENTC </option>
+    <option value ="Polymer Engineering"> Polymer Engineering </option>
+    <option value ="Mechatronic Engineering"> Mechatronic Engineering </option>
+    <option value ="DDGM"> DDGM </option>
+    <option value ="Interior Design"> Interior Design </option>
+     
+    </select>
+      <br><br>
+      <lable for="year">year :</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select id="year" name="year">
+      <option value="1">1 </option>
+      <option value="2"> 2 </option>
+      <option value="3">3 </option>
+    </select>
+      <br><br>
+  <lable for="pt">PT :</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select id="pt" name="pt">
+
+    <option value="1">1 </option>
+    <option value="2"> 2 </option>
+  </select>
+  <br><br>
+ 
+  <center><input type="submit" value="Submit"></center>
+</form>
+</div>
+{%endblock body%}

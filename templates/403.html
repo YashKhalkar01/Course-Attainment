@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forbidden</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(to right, #24292e, #3f51b5);
+      background-size: cover;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    h1 {
+      font-size: 10rem;
+      color: #ffffff;
+      margin: 0;
+      font-weight: bold;
+      text-align: center;
+      text-shadow: 3px 3px 0 #000000;
+    }
+    
+    p {
+      font-size: 1.5rem;
+      color: #ffffff;
+      margin: 0;
+      margin-top: 1rem;
+      text-align: center;
+      text-shadow: 2px 2px 0 #000000;
+    }
+    
+    .back-btn {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background-color: #ffffff;
+      color: #3f51b5;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .back-btn:hover {
+      background-color: #3f51b5;
+      color: #ffffff;
+    }
+    
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 6rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+      .back-btn {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>403</h1>
+    <p>Forbidden - Access Denied</p>
+    <a href="/" class="back-btn">Go Back</a>
+  </div>
+</body>
+</html>

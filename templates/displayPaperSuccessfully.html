@@ -1,0 +1,42 @@
+{% extends 'base.html'%}
+{% block head %}
+<link href="static/displayPaper.css" rel="stylesheet">
+
+{% endblock head %}
+
+{% block body%}
+<div class="main">
+    <center>
+        <h1>Course Code : {{course_code}}<br></h1>
+        <h2>  Year : {{year}} &nbsp;&nbsp;&nbsp;&nbsp;
+        PT:{% for ptn in pt  %}
+        {% for item in ptn %}
+            {{item}} 
+        {% endfor %}
+    {% endfor %}
+    <br>
+    Branch:{{branch}} <br>
+    </h2>
+    <h3>
+    Course Name:{% for cn in courseName  %}
+      {{cn}}
+    {% endfor %}
+        </h3> 
+        <hr>
+    {% for inner_array in resultArray  %}
+ 
+</center>  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    Question {{ forloop.counter0 | add:1}}</p>    
+        {% for item1 in inner_array %}
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &#{{forloop.counter0 | add:65}} :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item1}} <br>
+
+        
+        {% endfor %}
+        <hr>
+    {% endfor %} 
+    
+</div>
+{% endblock body %}
